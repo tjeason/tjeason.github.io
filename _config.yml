@@ -1,0 +1,16 @@
+# Site settings
+title: My Developer Blog
+email: tjeason@gmail.com
+description: "My software development experience!"
+baseurl: ""
+url: "http://tjeason.github.io"
+twitter_username: tjeason
+github_username:  tjeason
+facebook_username:  tj.eason
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["node_modules"]
