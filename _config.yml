@@ -1,12 +1,12 @@
 # Site settings
 title: My Developer Blog
-email: tjeason@gmail.com
+email: tjeason@outlook.com
 description: "My software development experience!"
 baseurl: ""
 url: "http://tjeason.github.io"
 twitter_username: tjeason
 github_username:  tjeason
-facebook_username:  tj.eason
+facebook_username: tj.eason
 
 # Build settings
 markdown: kramdown
