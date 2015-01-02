@@ -26,7 +26,7 @@ print "Hello, world!"
 <p>
   In my posts, I plan to share my interests, research, and developer experience.  Like manny open-source
   developers in the community, I want to share ideas, contribute, and provide positive experiences to
-  others. I will my technical challenges and soultions at a higher leven than a traditional whitepaper.
+  others. I will my technical challenges and solutions at a higher level than a traditional white paper.
   If required, code samples, graphs, and diagrams will be used to clarify a solution or experience.
 </p>
 
@@ -50,4 +50,3 @@ var disqus_shortname = 'tjeasongithubio'; // required: replace example with your
   })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  
