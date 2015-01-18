@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="My software development experience!">
 
-    <title>Hello, World - My Developer Blog</title>
+    <title>Know When Not to be a Cowboy Coder - My Developer Blog</title>
 
-    <link rel="canonical" href="http://tjeason.github.io/2015/01/01/hello-world/">
+    <link rel="canonical" href="http://tjeason.github.io/2015/01/17/cowboy-coding/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -84,16 +84,16 @@
 
 
     <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/img/hello_world_bg.jpg')">
+<header class="intro-header" style="background-image: url('/img/cowboy_banner.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>Hello, World</h1>
+                    <h1>Know When Not to be a Cowboy Coder</h1>
                     
-                    <h2 class="subheading">My first blog post</h2>
+                    <h2 class="subheading">Choose the right path</h2>
                     
-                    <span class="meta">Posted by T.J. Eason on January 1, 2015</span>
+                    <span class="meta">Posted by T.J. Eason on January 17, 2015</span>
                 </div>
             </div>
         </div>
@@ -107,28 +107,76 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
 				<p>
-  Since this is my first post, I just wanted to say hello, world! I wanted to reference my
-  first blog post to new programmers who write their first "Hello, World", program. New developers
-  learn how to write code using a popular programming language, such as Python, Ruby, C++, or Java,
-  to write a simple text output of the famous message.
-</p>
-
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="lineno">1</span> <span class="c">#!/usr/bin/env python</span>
-<span class="lineno">2</span> 
-<span class="lineno">3</span> <span class="c"># File: hello_world.py</span>
-<span class="lineno">4</span> 
-<span class="lineno">5</span> <span class="k">print</span> <span class="s">&quot;Hello, world!&quot;</span></code></pre></div>
-
-<p>
-  In my posts, I plan to share my interests, research, and developer experience.  Like manny open-source
-  developers in the community, I want to share ideas, contribute, and provide positive experiences to
-  others. I will my technical challenges and solutions at a higher level than a traditional white paper.
-  If required, code samples, graphs, and diagrams will be used to clarify a solution or experience.
+  When starting new software development projects, there can be an urge to start coding away.
+  You know what the outcome should be and have at least a general idea how the software should work.
+  Why not begin programming? What are the consequences? These are the type of questions you should be
+  asking yourself (and your team) before implementing.
 </p>
 
 <p>
-  I look forward to contributing my experience on my developer blogger. Feel free to comment posts and
-  fork any gists in my GitHub.  Happy writing and coding in the new year!
+  Software development projects typically use the <a href="http://en.wikipedia.org/wiki/Application_lifecycle_management">
+  Application Lifecycle Management (ALM)</a>, or can be called Application Development Life-cycle Management (ADLM)
+  if DevOps is included.  A common software development practice will involve gathering all the required information
+  and resources, planning, design, implementation, testing, and then moving to production.  It is possible that
+  developers to skip the planning stage and going straight to writing code and still have a successful release.
+  When developers have the freedom to skip the planning stage will lead them to a new, wild adventure.
+</p>
+
+<center>
+  <img src="http://upload.wikimedia.org/wikipedia/commons/5/5f/Three_software_development_patterns_mashed_together.svg" width="400" height="400" />
+</center>
+
+<p>
+  Skipping requirements and planning stages, and allowing engineer(s) to starting hacking a solution can be considered
+  as <a href="http://en.wikipedia.org/wiki/Cowboy_coding">“cowboy coding”</a>.  The software practice is great for learning and prototyping, but I would not recommend developers
+  being coder cowboys on highly-visible, critical, or complex projects.  A programmer may receive pressure to hit a short
+  deadline, but that does not mean it’s time to put on your cowboy hat and start the design, implementation, and testing phases
+  at once.  Let’s look at few of the pros and cons of this practice:
+</p>
+
+<h3>Good</h3>
+
+<ol>
+  <li>
+    Great for learning a new programming language or framework.  Developers can setup a development environment and
+    acquire a new skill. Remember, learning how to write software requires “doing”.
+  </li>
+  <li>
+    Creating prototypes with no or soft deadlines. If you have an idea and time for a solution, then writing small
+    features or applications is a great way to see if you have a good solution or not.
+  </li>
+  <li>
+    Writing small unit-tests.  After building your logic with your code, it’s good practice to make sure there is no
+    flaws and production ready.  Unit tests focusing on a section of your solution can be small enough without having
+    to plan and design your unit test framework to see if the tests will pass.
+  </li>
+</ol>
+
+<h3>Bad</h3>
+
+<ol>
+  <li>
+    Easier to miss deadlines.  Cowboy coding allows to jump right into the text editor, but with high risks.
+    For instance, many managers or customers want to know when development goals can be achieved by a set date and
+    time.  By not planning properly, engineers increase their chances of missing deadlines. Missing deadlines can
+    impact costs, frustration, stress, and even working longer hours.
+  </li>
+  <li>
+    Reduces team communication.  In software development projects involving teams, no documentation on planning, scope,
+    requirements, etc. reduces communication on how a solution is going to work.
+  </li>
+  <li>
+    More difficult to set deadlines.  It can be very hard to set goals to meet at specific timeframes for medium and
+    large projects.  Without enough preparation, developers are generating more uncertainty of when to say done!
+  </li>
+</ol>
+
+<p>
+  I have had personal experience dealing with cowboy coding in various ways. From testing and touching code in
+  production, it can be risky and not supported.  I now know when I can skip all of the pre-coding steps and the
+  consequences.  I recommended software developers think about the pros and cons before jumping straight to writing
+  code.  Management and users will have a better appreciation of the work knowing there was proper care placed to
+  provide a great solution.
 </p>
 
 <hr />
@@ -152,11 +200,11 @@ var disqus_shortname = 'tjeasongithubio'; // required: replace example with your
                 <hr>
 
                 <ul class="pager">
-                     
                     
-                    <li class="next">
-                        <a href="//2015/01/17/cowboy-coding/" data-toggle="tooltip" data-placement="top" title="Know When Not to be a Cowboy Coder">Next Post &rarr;</a>
+                    <li class="previous">
+                        <a href="//2015/01/01/hello-world/" data-toggle="tooltip" data-placement="top" title="Hello, World">&larr; Previous Post</a> 
                     </li>
+                     
                      
                 </ul>
 

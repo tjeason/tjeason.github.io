@@ -5,9 +5,108 @@
     <description>My software development experience!</description>
     <link>http://tjeason.github.io/</link>
     <atom:link href="http://tjeason.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Dec 2014 20:15:00 -0600</pubDate>
-    <lastBuildDate>Tue, 30 Dec 2014 20:15:00 -0600</lastBuildDate>
+    <pubDate>Sat, 17 Jan 2015 20:42:09 -0600</pubDate>
+    <lastBuildDate>Sat, 17 Jan 2015 20:42:09 -0600</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Know When Not to be a Cowboy Coder</title>
+        <description>&lt;p&gt;
+  When starting new software development projects, there can be an urge to start coding away.
+  You know what the outcome should be and have at least a general idea how the software should work.
+  Why not begin programming? What are the consequences? These are the type of questions you should be
+  asking yourself (and your team) before implementing.
+&lt;/p&gt;
+
+&lt;p&gt;
+  Software development projects typically use the &lt;a href=&quot;http://en.wikipedia.org/wiki/Application_lifecycle_management&quot;&gt;
+  Application Lifecycle Management (ALM)&lt;/a&gt;, or can be called Application Development Life-cycle Management (ADLM)
+  if DevOps is included.  A common software development practice will involve gathering all the required information
+  and resources, planning, design, implementation, testing, and then moving to production.  It is possible that
+  developers to skip the planning stage and going straight to writing code and still have a successful release.
+  When developers have the freedom to skip the planning stage will lead them to a new, wild adventure.
+&lt;/p&gt;
+
+&lt;center&gt;
+  &lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/5/5f/Three_software_development_patterns_mashed_together.svg&quot; width=&quot;400&quot; height=&quot;400&quot; /&gt;
+&lt;/center&gt;
+
+&lt;p&gt;
+  Skipping requirements and planning stages, and allowing engineer(s) to starting hacking a solution can be considered
+  as &lt;a href=&quot;http://en.wikipedia.org/wiki/Cowboy_coding&quot;&gt;“cowboy coding”&lt;/a&gt;.  The software practice is great for learning and prototyping, but I would not recommend developers
+  being coder cowboys on highly-visible, critical, or complex projects.  A programmer may receive pressure to hit a short
+  deadline, but that does not mean it’s time to put on your cowboy hat and start the design, implementation, and testing phases
+  at once.  Let’s look at few of the pros and cons of this practice:
+&lt;/p&gt;
+
+&lt;h3&gt;Good&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    Great for learning a new programming language or framework.  Developers can setup a development environment and
+    acquire a new skill. Remember, learning how to write software requires “doing”.
+  &lt;/li&gt;
+  &lt;li&gt;
+    Creating prototypes with no or soft deadlines. If you have an idea and time for a solution, then writing small
+    features or applications is a great way to see if you have a good solution or not.
+  &lt;/li&gt;
+  &lt;li&gt;
+    Writing small unit-tests.  After building your logic with your code, it’s good practice to make sure there is no
+    flaws and production ready.  Unit tests focusing on a section of your solution can be small enough without having
+    to plan and design your unit test framework to see if the tests will pass.
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Bad&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    Easier to miss deadlines.  Cowboy coding allows to jump right into the text editor, but with high risks.
+    For instance, many managers or customers want to know when development goals can be achieved by a set date and
+    time.  By not planning properly, engineers increase their chances of missing deadlines. Missing deadlines can
+    impact costs, frustration, stress, and even working longer hours.
+  &lt;/li&gt;
+  &lt;li&gt;
+    Reduces team communication.  In software development projects involving teams, no documentation on planning, scope,
+    requirements, etc. reduces communication on how a solution is going to work.
+  &lt;/li&gt;
+  &lt;li&gt;
+    More difficult to set deadlines.  It can be very hard to set goals to meet at specific timeframes for medium and
+    large projects.  Without enough preparation, developers are generating more uncertainty of when to say done!
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+  I have had personal experience dealing with cowboy coding in various ways. From testing and touching code in
+  production, it can be risky and not supported.  I now know when I can skip all of the pre-coding steps and the
+  consequences.  I recommended software developers think about the pros and cons before jumping straight to writing
+  code.  Management and users will have a better appreciation of the work knowing there was proper care placed to
+  provide a great solution.
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = &#39;tjeasongithubio&#39;; // required: replace example with your forum shortname
+
+/* * * DON&#39;T EDIT BELOW THIS LINE * * */
+(function() {
+  var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+  dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+  (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+  })();
+  &lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Sat, 17 Jan 2015 06:00:00 -0600</pubDate>
+        <link>http://tjeason.github.io/2015/01/17/cowboy-coding/</link>
+        <guid isPermaLink="true">http://tjeason.github.io/2015/01/17/cowboy-coding/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hello, World</title>
@@ -27,7 +126,7 @@
 &lt;p&gt;
   In my posts, I plan to share my interests, research, and developer experience.  Like manny open-source
   developers in the community, I want to share ideas, contribute, and provide positive experiences to
-  others. I will my technical challenges and soultions at a higher leven than a traditional whitepaper.
+  others. I will my technical challenges and solutions at a higher level than a traditional white paper.
   If required, code samples, graphs, and diagrams will be used to clarify a solution or experience.
 &lt;/p&gt;
 
@@ -52,7 +151,6 @@ var disqus_shortname = &#39;tjeasongithubio&#39;; // required: replace example w
   &lt;/script&gt;
 
 &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-
 </description>
         <pubDate>Thu, 01 Jan 2015 06:00:00 -0600</pubDate>
         <link>http://tjeason.github.io/2015/01/01/hello-world/</link>
