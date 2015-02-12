@@ -13,6 +13,14 @@
   white-space: pre;       // forces <code> to respect <pre> formatting
 }
 
+div.console-output {
+  color: #ffffff;
+  background-color: #000000;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 11px;
+}
+
 
 /*
  * GitHub style for Pygments syntax highlighter, for use with Jekyll
