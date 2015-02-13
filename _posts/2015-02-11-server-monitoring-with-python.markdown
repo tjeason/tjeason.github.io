@@ -180,7 +180,7 @@ def tcp_test(server_info):
   the arguments. The method requires three parameters values: the network test type (HTTP/TCP), host and port number, and the e-mail address
   of the receiver(s).  The network test type is used to inform what kind of health check was executed and time. The server_info parameter provides
   what host (domain name or IP address) and port was tested, and the e-mail address to inform a administrator about the failed status.  The default
-  e-mail message is short and direct to notify an administrator with enough information.  You can see an example e-mail below the code section.
+  e-mail message is short and direct to notify an administrator with enough information.
 </p>
 
 {% highlight python linenos %}
