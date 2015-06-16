@@ -5,9 +5,9 @@
     <description>My software development experience!</description>
     <link>http://tjeason.github.io/</link>
     <atom:link href="http://tjeason.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Feb 2015 21:44:56 -0600</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2015 21:44:56 -0600</lastBuildDate>
-    <generator>Jekyll v2.5.1</generator>
+    <pubDate>Tue, 16 Jun 2015 10:57:41 -0500</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2015 10:57:41 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Basic Linux Web Server Monitoring</title>
@@ -164,7 +164,7 @@
   the arguments. The method requires three parameters values: the network test type (HTTP/TCP), host and port number, and the e-mail address
   of the receiver(s).  The network test type is used to inform what kind of health check was executed and time. The server_info parameter provides
   what host (domain name or IP address) and port was tested, and the e-mail address to inform a administrator about the failed status.  The default
-  e-mail message is short and direct to notify an administrator with enough information.  You can see an example e-mail below the code section.
+  e-mail message is short and direct to notify an administrator with enough information.
 &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Create e-mail message, and send notification.&lt;/span&gt;
