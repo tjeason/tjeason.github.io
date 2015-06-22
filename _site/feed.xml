@@ -5,9 +5,101 @@
     <description>My software development experience!</description>
     <link>http://tjeason.github.io/</link>
     <atom:link href="http://tjeason.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 16 Jun 2015 10:57:41 -0500</pubDate>
-    <lastBuildDate>Tue, 16 Jun 2015 10:57:41 -0500</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2015 14:21:47 -0500</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2015 14:21:47 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Building a Strong Team</title>
+        <description>&lt;p&gt;
+  Building a strong team culture for your development teams can provide a lot of
+  great benefits. Great development teams thrive and provides a substantial amount
+  of value for a company. In order to have a great development team with a good
+  culture, sacrifice, hard work, and the desire need to be in place to make it
+  happen.
+&lt;/p&gt;
+
+&lt;p&gt;
+  For developers and managers joining (or creating) new teams will have challenges
+  integrating (or building) a strong team culture. Different challenges can arrive
+  through out a team&#39;s lifecycle. Managers will have their own set of challenges
+  while individual contributors will deal their own set as well. What do they need
+  to do to overcome their challenges to make a great team?
+&lt;/p&gt;
+
+&lt;p&gt;
+  For managers, they need to have good leadership skills, and be active in the
+  team&#39;s projects. Managers should lead weekly team discussions to communicate
+  organization updates, important management decisions, and provide feedback on
+  project updates. Attending scrum meetings at least a few times a month lets
+  developers know that you are interested in their work and available to answer
+  questions. Most importantly, be there for the developers. Managers should be
+  available as much as possible to have one-to-one meetings, reply to e-mails,
+  and listen. They should provide provide recognition when someone does well, and
+  professional criticism to motivate when somone makes a mistake or weak in an area.
+  Managers making the effort to &quot;be there&quot; for professional and personal
+  circumstances makes a huge difference, and one step closer strengthening the team.
+&lt;/p&gt;
+
+&lt;p&gt;
+  Developers wanting to part of a strong team need to be open-minded, communicate,
+  and help each other on problems. Team meetings does not have to just be providing
+  developer status updates on projects. They also should have a chance to ask questions,
+  give feedback, or request assistance in training or solving a problem at a later time.
+  Developers with the right skills and experience should help by giving advice,
+  perform reviews, or put someone on the right track to success. It&#39;s frustrating
+  to know many developers believe by taking away their time from their schedule to
+  help with someone else&#39;s work will hurt them. Yes, developers have to hit deadlines,
+  and can&#39;t always be accessible. But don&#39;t just focus on yourself to have a successfully
+  career. Focusing efforts to contribute to the team will lead to more successful
+  outcomes. These efforts will generate positive impacts by sacrificing some time. Helping
+  other teams members builds confidence, trust, skills, and strengthens relationships.
+  Good managers will view the efforts positively, which could lead to a promotion
+  or wage increase. Great developers not only have the technical skills, but the
+  abilities to teach and communicate effectively to build a strong bond with their
+  teammates.
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Don’t just focus on yourself to have a successful career. Focusing efforts to
+contribute to the team will lead to more successful outcomes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;center&gt;&lt;img src=&quot;/img/teamwork_baby.jpg&quot; width=&quot;300&quot; height=&quot;300&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;
+  When team managers and developers overcome these challenges, they build a strong
+  foundation for a great team culture. A great team culture benefits the company,
+  employees, and customers.  Productivity increases, employee morale improves, less
+  turn-over, better return on investments, and the list of benefits could be endless.
+  Remember, people don&#39;t achieve their career goals alone. People need advice, aide,
+  and the ability network as a team to reach objectives. So if you have not started
+  building a strong team at your company, then now is the time.
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = &#39;tjeasongithubio&#39;; // required: replace example with your forum shortname
+
+/* * * DON&#39;T EDIT BELOW THIS LINE * * */
+(function() {
+  var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+  dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+  (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+  })();
+  &lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Mon, 22 Jun 2015 09:22:00 -0500</pubDate>
+        <link>http://tjeason.github.io/2015/06/22/bulding-a-strong-team/</link>
+        <guid isPermaLink="true">http://tjeason.github.io/2015/06/22/bulding-a-strong-team/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Basic Linux Web Server Monitoring</title>
