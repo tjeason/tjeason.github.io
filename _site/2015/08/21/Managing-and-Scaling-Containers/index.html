@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="My software development experience!">
 
-    <title>Building a Strong Team - My Developer Blog</title>
+    <title>Managing & Scaling Containers - My Developer Blog</title>
 
-    <link rel="canonical" href="http://tjeason.github.io/2015/06/22/bulding-a-strong-team/">
+    <link rel="canonical" href="http://tjeason.github.io/2015/08/21/Managing-and-Scaling-Containers/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -84,16 +84,16 @@
 
 
     <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/img/building_a_strong_team_bg.jpg')">
+<header class="intro-header" style="background-image: url('/img/containers_bg.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>Building a Strong Team</h1>
+                    <h1>Managing & Scaling Containers</h1>
                     
-                    <h2 class="subheading">Why creating a great team culture for developers is worth it!</h2>
+                    <h2 class="subheading">The challenges and potential solutions</h2>
                     
-                    <span class="meta">Posted by T.J. Eason on June 22, 2015</span>
+                    <span class="meta">Posted by T.J. Eason on August 21, 2015</span>
                 </div>
             </div>
         </div>
@@ -117,72 +117,35 @@
               </script>
 
 				<p>
-  Building a strong team culture for your development teams can provide a lot of
-  great benefits. Great development teams thrive and provides a substantial amount
-  of value for a company. In order to have a great development team with a good
-  culture, sacrifice, hard work, and the desire need to be in place to make it
-  happen.
+In the IT Infrastructure industry, a new technology shift is happening.  A transition just as big as moving from physical (bare-metal) servers to virtual machines just over ten years ago.  Now, with virtualization can easily be done on a single physical computer to cloud, using containers is the next big step to be more efficient.  
 </p>
 
 <p>
-  For developers and managers joining (or creating) new teams will have challenges
-  integrating (or building) a strong team culture. Different challenges can arrive
-  through out a team's lifecycle. Managers will have their own set of challenges
-  while individual contributors will deal their own set as well. What do they need
-  to do to overcome their challenges to make a great team?
+Even though <a href="https://linuxcontainers.org/" target="_blank">Linux Containers (LXC)</a> has been available to use in a while, the mass market did not even bother on how to figuring out to use them until the companies, Docker and Google, began publishing their work.  The <a href="https://www.docker.com/" target="_blank">Docker Container Runtime Engine</a> was developed as a side project to figure out a simpler way to use Linux containers.  Since Docker’s launch of its tools to simplify distributing and running apps, databases, and back-end API services, usage grew dramatically in the developer and operations community.  Development and operations teams loved the benefits of provisioning containers within seconds compared to minutes on traditional virtual machines, less  CPU usage on the host, and a guarantee an app running inside a container will run in any environment with minimal to none configurations on the host instances.  Even infrastructure architects are seeing the benefits of using containers.  Architects can move away from monolith (or silo) architectures to using a micro-services design. Cross communication can happen between various apps, databases, and web services using RESTful APIs.  A DevOps team can take down or update services without effecting other areas.  In result, a much more loosely-coupled architecture.  The transition from virtualization to containerization has gotten so popular even Microsoft is developing a version of Windows Server to run inside containers and partnering with Docker.  
 </p>
 
 <p>
-  For managers, they need to have good leadership skills, and be active in the
-  team's projects. Managers should lead weekly team discussions to communicate
-  organization updates, important management decisions, and provide feedback on
-  project updates. Attending scrum meetings at least a few times a month lets
-  developers know that you are interested in their work and available to answer
-  questions. Most importantly, be there for the developers. Managers should be
-  available as much as possible to have one-to-one meetings, reply to e-mails,
-  and listen. They should provide provide recognition when someone does well, and
-  professional criticism to motivate when somone makes a mistake or weak in an area.
-  Managers making the effort to "be there" for professional and personal
-  circumstances makes a huge difference, and one step closer strengthening the team.
+Great! The transition is happening and developers and operation teams are starting to figure out how to use containers to host their apps and services in sandboxes or production. But once the transformation happens, the next challenge is how to handle large scale deployments of containers.  IT Infrastructure Engineer and Operations Teams now have to figure how to orchestrate and manage hundreds to thousands of containers.  Companies and open-source communities are developing a variety of great technologies that will hopefully solve this type of issues.  Two technologies that are widely discussed online are Google’s Kubernetes and Mesosphere.
+</p>
+
+<center><img src="/img/kubernetes_logo.png" /></center>
+<p>
+<a href="http://kubernetes.io/" target="_blank">Kubernetes</a> is Google’s open-sourced solution to managing a cluster of Linux containers as a single system to accelerate development and simplify operations.  Google has been using containers for a long time to run services, such as Gmail. Their container management solution has proven to be a great solution to handle usage in a massive environment.  It’s currently only used at the command-line.  One of Kubernetes’s strengths is able schedule large clusters of containers onto nodes to create “labels” and “pods”.  This process makes it easier to manage the grouped containers and discover.  Replication can be done as well.  
 </p>
 
 <p>
-  Developers wanting to part of a strong team need to be open-minded, communicate,
-  and help each other on problems. Team meetings does not have to just be providing
-  developer status updates on projects. They also should have a chance to ask questions,
-  give feedback, or request assistance in training or solving a problem at a later time.
-  Developers with the right skills and experience should help by giving advice,
-  perform reviews, or put someone on the right track to success. It's frustrating
-  to know many developers believe by taking away their time from their schedule to
-  help with someone else's work will hurt them. Yes, developers have to hit deadlines,
-  and can't always be accessible. But don't just focus on yourself to have a successful
-  career. Focusing efforts to contribute to the team will lead to more successful
-  outcomes. These efforts will generate positive impacts by sacrificing some time. Helping
-  other teams members builds confidence, trust, skills, and strengthens relationships.
-  Good managers will view the efforts positively, which could lead to a promotion
-  or wage increase. Great developers not only have the technical skills, but the
-  abilities to teach and communicate effectively to build a strong bond with their
-  teammates.
+Another approach is building a “data center operation system” to manage and deploy several containers.  Former Twitter and Airbnb Engineers founded the company and technology called <a href="https://mesosphere.com/" target="_blank">Mesosphere</a>.  Their approach is to organize the entire infrastructure as if it was a single computer. By using the command-line or GUI web app, administrators can launch and manage thousands of containers as a platform compared to just being a tool like Kubernetes.  The technology is built on top of <a href="http://mesos.apache.org/" target="_blank">Apache Mesos</a> to be a kernel for data pooling and handling distributed computing.  Other components to Mesosphere are Marathon for deploying long-running services, Chronos for chron tasks, and graphical dashboard for viewing services. Kubernetes is getting integrated as well.
 </p>
 
-<blockquote>
-  <p>Don’t just focus on yourself to have a successful career. Focusing efforts to
-contribute to the team will lead to more successful outcomes.</p>
-</blockquote>
-
-<center><img src="/img/teamwork_baby.jpg" width="300" height="300" /></center>
+<center>
+  <img src="/img/mesosphere.png" />
+  <br />
+  <small>Mesosphere - GUI Web App screenshot of managing a cluster of containers.</small>
+</center>
 
 <p>
-  When team managers and developers overcome these challenges, they build a strong
-  foundation for a great team culture. A great team culture benefits the company,
-  employees, and customers.  Productivity increases, employee morale improves, less
-  turn-over, better return on investments, and the list of benefits could be endless.
-  Remember, people don't achieve their career goals alone. People need advice, aide,
-  and the ability network as a team to reach objectives. So if you have not started
-  building a strong team at your company, then now is the time.
+In summary, managing and deployment solutions for containers is still in its infancy. The technologies I mentioned in this article are some of the more interesting and supported tools, which have great potential to be commonly used from startups to enterprises.  There is still plenty of time for companies to decide of running container and micro-services to be a great fit or not.  The tech community recently setup the <a href="https://www.opencontainers.org/" target="_blank">Open Container Initiative</a> to help standardize container formats and runtimes.  The initiative is under the loosely-governed Linux Foundation and supported by companies, such as Amazon, Joyent, Cisco, IBM, Docker, Google, Microsoft, HP, and Oracle. If you have not tried using containers as a developer or system administrator, then now is an exciting time to starting learning before the “big transformation” happens.
 </p>
-
-<hr />
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -215,13 +178,9 @@ var disqus_shortname = 'tjeasongithubio'; // required: replace example with your
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="//2015/02/11/server-monitoring-with-python/" data-toggle="tooltip" data-placement="top" title="Basic Linux Web Server Monitoring">&larr; Previous Post</a>
+                        <a href="//2015/06/22/bulding-a-strong-team/" data-toggle="tooltip" data-placement="top" title="Building a Strong Team">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="//2015/08/21/Managing-and-Scaling-Containers/" data-toggle="tooltip" data-placement="top" title="Managing & Scaling Containers">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

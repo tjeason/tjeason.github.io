@@ -5,9 +5,64 @@
     <description>My software development experience!</description>
     <link>http://tjeason.github.io/</link>
     <atom:link href="http://tjeason.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 28 Jun 2015 17:05:39 -0500</pubDate>
-    <lastBuildDate>Sun, 28 Jun 2015 17:05:39 -0500</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2015 14:01:07 -0500</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2015 14:01:07 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Managing &amp; Scaling Containers</title>
+        <description>&lt;p&gt;
+In the IT Infrastructure industry, a new technology shift is happening.  A transition just as big as moving from physical (bare-metal) servers to virtual machines just over ten years ago.  Now, with virtualization can easily be done on a single physical computer to cloud, using containers is the next big step to be more efficient.  
+&lt;/p&gt;
+
+&lt;p&gt;
+Even though &lt;a href=&quot;https://linuxcontainers.org/&quot; target=&quot;_blank&quot;&gt;Linux Containers (LXC)&lt;/a&gt; has been available to use in a while, the mass market did not even bother on how to figuring out to use them until the companies, Docker and Google, began publishing their work.  The &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot;&gt;Docker Container Runtime Engine&lt;/a&gt; was developed as a side project to figure out a simpler way to use Linux containers.  Since Docker’s launch of its tools to simplify distributing and running apps, databases, and back-end API services, usage grew dramatically in the developer and operations community.  Development and operations teams loved the benefits of provisioning containers within seconds compared to minutes on traditional virtual machines, less  CPU usage on the host, and a guarantee an app running inside a container will run in any environment with minimal to none configurations on the host instances.  Even infrastructure architects are seeing the benefits of using containers.  Architects can move away from monolith (or silo) architectures to using a micro-services design. Cross communication can happen between various apps, databases, and web services using RESTful APIs.  A DevOps team can take down or update services without effecting other areas.  In result, a much more loosely-coupled architecture.  The transition from virtualization to containerization has gotten so popular even Microsoft is developing a version of Windows Server to run inside containers and partnering with Docker.  
+&lt;/p&gt;
+
+&lt;p&gt;
+Great! The transition is happening and developers and operation teams are starting to figure out how to use containers to host their apps and services in sandboxes or production. But once the transformation happens, the next challenge is how to handle large scale deployments of containers.  IT Infrastructure Engineer and Operations Teams now have to figure how to orchestrate and manage hundreds to thousands of containers.  Companies and open-source communities are developing a variety of great technologies that will hopefully solve this type of issues.  Two technologies that are widely discussed online are Google’s Kubernetes and Mesosphere.
+&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;/img/kubernetes_logo.png&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://kubernetes.io/&quot; target=&quot;_blank&quot;&gt;Kubernetes&lt;/a&gt; is Google’s open-sourced solution to managing a cluster of Linux containers as a single system to accelerate development and simplify operations.  Google has been using containers for a long time to run services, such as Gmail. Their container management solution has proven to be a great solution to handle usage in a massive environment.  It’s currently only used at the command-line.  One of Kubernetes’s strengths is able schedule large clusters of containers onto nodes to create “labels” and “pods”.  This process makes it easier to manage the grouped containers and discover.  Replication can be done as well.  
+&lt;/p&gt;
+
+&lt;p&gt;
+Another approach is building a “data center operation system” to manage and deploy several containers.  Former Twitter and Airbnb Engineers founded the company and technology called &lt;a href=&quot;https://mesosphere.com/&quot; target=&quot;_blank&quot;&gt;Mesosphere&lt;/a&gt;.  Their approach is to organize the entire infrastructure as if it was a single computer. By using the command-line or GUI web app, administrators can launch and manage thousands of containers as a platform compared to just being a tool like Kubernetes.  The technology is built on top of &lt;a href=&quot;http://mesos.apache.org/&quot; target=&quot;_blank&quot;&gt;Apache Mesos&lt;/a&gt; to be a kernel for data pooling and handling distributed computing.  Other components to Mesosphere are Marathon for deploying long-running services, Chronos for chron tasks, and graphical dashboard for viewing services. Kubernetes is getting integrated as well.
+&lt;/p&gt;
+
+&lt;center&gt;
+  &lt;img src=&quot;/img/mesosphere.png&quot; /&gt;
+  &lt;br /&gt;
+  &lt;small&gt;Mesosphere - GUI Web App screenshot of managing a cluster of containers.&lt;/small&gt;
+&lt;/center&gt;
+
+&lt;p&gt;
+In summary, managing and deployment solutions for containers is still in its infancy. The technologies I mentioned in this article are some of the more interesting and supported tools, which have great potential to be commonly used from startups to enterprises.  There is still plenty of time for companies to decide of running container and micro-services to be a great fit or not.  The tech community recently setup the &lt;a href=&quot;https://www.opencontainers.org/&quot; target=&quot;_blank&quot;&gt;Open Container Initiative&lt;/a&gt; to help standardize container formats and runtimes.  The initiative is under the loosely-governed Linux Foundation and supported by companies, such as Amazon, Joyent, Cisco, IBM, Docker, Google, Microsoft, HP, and Oracle. If you have not tried using containers as a developer or system administrator, then now is an exciting time to starting learning before the “big transformation” happens.
+&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = &#39;tjeasongithubio&#39;; // required: replace example with your forum shortname
+
+/* * * DON&#39;T EDIT BELOW THIS LINE * * */
+(function() {
+  var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+  dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+  (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+  })();
+  &lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Fri, 21 Aug 2015 09:00:00 -0500</pubDate>
+        <link>http://tjeason.github.io/2015/08/21/Managing-and-Scaling-Containers/</link>
+        <guid isPermaLink="true">http://tjeason.github.io/2015/08/21/Managing-and-Scaling-Containers/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Building a Strong Team</title>
